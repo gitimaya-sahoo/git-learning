@@ -11,6 +11,7 @@ public class BC_Login {
 
 	static WebDriver driver = Browsers.callDriver();
 	
+	//Below function for opening URL
 	public static void buslogin(String URL,String un, String pw){
 	
 		driver.get(URL);
