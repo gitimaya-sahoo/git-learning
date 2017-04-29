@@ -31,6 +31,7 @@ public class RunTest {
 	  Browsers.selectBrowser("chrome");
 	  BC_Login.buslogin(url1, un1, pw1);
 	  
+	  //Run Editinfo
 	  BC_EditInfo.editinfo("GT8");
 	  WebDriver driver = Browsers.callDriver();
 	  driver.close();
