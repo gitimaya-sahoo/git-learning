@@ -27,7 +27,7 @@ public class RunTest {
 	  String pw1 = pro.getProperty("pwd1");
 	  //Object Repository***********************
 	  
-	  //Select Specific Browser by passing argument
+	  //Select Specific Browser
 	  Browsers.selectBrowser("chrome");
 	  BC_Login.buslogin(url1, un1, pw1);
 	  
