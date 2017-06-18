@@ -26,7 +26,7 @@ public class RunTest {
 	  String un1 = pro.getProperty("user1");
 	  String pw1 = pro.getProperty("pwd1");
 	  //Object Repository***********************
-	  System.out.println("For GIT");
+	  System.out.println("For GIT n jenkins");
 	  
 	  //Select Specific Browser
 	  Browsers.selectBrowser("chrome");
